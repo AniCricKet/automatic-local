@@ -21,7 +21,7 @@ def index():
 def stub():
     return render_template("stub.html")
 
-@app.route('/aboutme/')  # connects /stub/ URL to stub() function
+@app.route('/aboutme/')  # connects /stub/ URL to about() function
 def about():
     return render_template("about.html")
 
